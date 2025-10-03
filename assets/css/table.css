@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:  "Poppins", serif;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    padding: 1rem;
+    background-color: rgba(200, 228, 255, 0.13);
+}
+
+header{
+
+    max-width:100%;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    padding-block: 5px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        font-weight: 600;
+        color: #3B1E54;
+    }
+}
+.search{
+    width: 30%;
+    display: flex;
+    gap: 1rem;
+}
+.search input{
+    width: 100%;
+    padding-block: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(200, 228, 255, 0.13);
+    font-size: 12px;
+    padding-inline: 1rem;
+}
+
+
+.image {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrapper{
+    max-width: 1500px;
+    background-color: white;
+    margin-inline: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.head i{
+    font-size:13px;
+}
+.total-con{
+    display: flex;
+    height:100%;
+    align-items: center;
+    gap: 1rem;
+    font-size: .8rem;
+}
+
+.total-con span{
+    margin-left: .2rem;
+    color: white;
+    background-color: #9b7ebd93;
+    padding-block:3px;
+    border-radius: 10px;
+    padding-inline: .5rem;
+}
+.total-con-del{
+    display: flex;
+    height:100%;
+    align-items: center;
+    gap: 1rem;
+    font-size: .8rem;
+}
+.total-con-del span{
+    margin-left: .2rem;
+    color: white;
+    background-color: #ca2020cc;
+    padding-block:3px;
+    border-radius: 10px;
+    padding-inline: .5rem;
+}
+.filter-btn{
+    padding: 5px;
+    border: none;
+    color: #3B1E54;
+    border-radius:5px;
+    background-color: rgba(200, 228, 255, 0.13);
+    font-size: 12px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+}
+.add-btn{
+    padding-inline: 1rem;
+    border: solid 1px;
+    height: 100%;
+    border: none;
+    border-radius:5px;
+    background-color: #9B7EBD;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.empty-btn{
+    
+        padding-inline: 1rem;
+        border: solid 1px;
+        height: 100%;
+        border: none;
+        border-radius:5px;
+        background-color: #e72929;
+        color: white;
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+    
+}
+.table-con{
+    margin-top: 1rem;
+}
+table{
+    width: 100%;
+    
+}
+td{
+    margin-top: .8rem;
+  font-size: 12px;
+    text-align: center;
+    padding: .5rem;
+}
+th{
+    color: #3B1E54;
+    padding: .5rem;
+    font-size: 13px;
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+ 
+}
+.actions i{
+    font-size: 1rem;
+}
+.find{
+    color: rgba(0, 128, 0, 0.411);
+}
+.find:hover{
+    color: green;
+}
+
+.restore{
+    color: rgba(0, 128, 0, 0.411);
+}
+.restore:hover{
+    color: rgb(4, 180, 4);
+}
+.delete{
+    color: rgba(255, 0, 0, 0.336);
+}
+.delete:hover{
+    color: red;
+}
+.view-trash{
+    color: rgba(255, 0, 0, 0.89);
+    border: none;
+padding: 5px;
+border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.view-trash i{
+    font-size: .8rem;
+    cursor: pointer;
+}
+.return-to-view{
+    display: flex;
+}
+
+.return-to-view button{
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.return-to-view button i{
+    font-size: 1.5rem;
+    color: #3B1E54;
+    cursor: pointer;
+}
+.edit{
+   
+    color: rgba(122, 206, 255, 0.932);
+}
+.edit:hover{
+    
+    color: rgba(49, 168, 236, 0.986);
+}
+.table-con button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.selected {
+    background-color: rgba(200, 228, 255, 0.13);
+}
+.nodata{
+
+    font-size: 12px;
+    background-color: rgba(200, 228, 255, 0.13);
+    border-radius: 10px;
+}
+
